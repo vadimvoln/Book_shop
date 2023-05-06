@@ -1,0 +1,15 @@
+@import "./generalStyles/vars.scss";
+@import "./generalStyles/general.scss";
+@import "./generalStyles/fonts.scss";
+@import "./generalStyles/reset.scss";
+@import "./componentStyles/header.scss";
+
+@import "./componentStyles/categories.scss";
+@import "./componentStyles/booksList.scss";
+
+@import 'swiper/css';
+@import 'swiper/css/pagination';
+@import "./componentStyles/slider.scss";
+
+@import "./generalStyles/media.scss";
+

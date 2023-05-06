@@ -1,0 +1,60 @@
+.swiper {
+  padding-bottom: 40px;
+}
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 5px;
+}
+.swiper-pagination-bullet-active {
+  background-color: #9E98DC;
+}
+
+.swiper-button-1, .swiper-button-2 {
+  display: block;
+  position: absolute;
+}
+
+.main {
+  .container {
+    position: relative;
+  }
+}
+
+.swiper-button-1, .swiper-button-2 {
+  max-width: 150px;
+  z-index: 100;
+  text-align: left;
+  .title {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: $textColorHighlight;
+
+    margin-bottom: 4px;
+  }
+  transition: transform ease-in-out 0.3s;
+  &:hover {
+    transform: scale(1.05);
+    transition: transform ease-in-out 0.3s;
+  }
+}
+
+.swiper-button-1 {
+  top: 79px;
+  right: -66px;
+  background-color: #9E98DC;
+  padding: 102px 20px 20px 20px;
+}
+
+.swiper-button-2 {
+  bottom: 71px;
+  right: -171px;
+  background-color: #FF8FE6;
+  padding: 149px 42px 36px 26px;
+}

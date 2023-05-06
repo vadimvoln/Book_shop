@@ -1,0 +1,53 @@
+.body {
+  background-color: white;
+}
+
+main {
+  padding-bottom: 74px;
+}
+
+.container {
+  margin: 0px auto;
+  max-width: 1160px;
+  padding: 0 20px;
+}
+
+.books {
+  padding-top: 46px;
+  position: relative;    
+    &::after {
+      position: absolute;
+      height: 800px;
+      content: '';
+      background-color: #EFEEF6;
+      left: 0;
+      right: 70%;
+      top: 0;
+      z-index: -1;
+    }
+    
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .moreBtn {
+    display: block;
+    margin: 0 auto;
+
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 8px;
+    text-transform: uppercase;
+    color: #4C3DB2;
+    padding: 17px 66px;
+    border: 1px solid #4C3DB2;
+    transition: color ease-in-out 0.2s, background-color ease-in-out 0.2s;
+    &:hover {
+      color: #fff;
+      background-color: #4C3DB2;
+      transition: color ease-in-out 0.2s, background-color ease-in-out 0.2s;
+    }
+
+    margin-top: 95px;
+  }
+}
