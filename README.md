@@ -17,7 +17,7 @@ cd myBookshop
 npm install 
 ```
 ***
-5. Run npm command to build the project:
+5. Run npm command to build project:
 ```
 npm run build 
 ```
